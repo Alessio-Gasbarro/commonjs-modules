@@ -5,8 +5,8 @@ const hobbyList = require('./hobbies.js');
 //Funzione senza parametri usando quello che è stato importato
 
 const newProfile = () => {
-    const reqName = fullname();
-    const reqHobbies = hobbyList();
+    const reqName = fullname('Alessio', 'Gasbarro');
+    const reqHobbies = hobbyList('Gaming', 'Cooking', 'Sleeping');
 
     return {
         reqName,
